@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-Semester1Application<Semester1>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.GWC.Advanced1.Semester1.Semester1Application",
+            "projectName": "Semester1",
+            "args": ""
+        }
+    ]
+}
