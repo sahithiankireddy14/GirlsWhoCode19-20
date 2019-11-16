@@ -1,3 +1,6 @@
+import React from "react";
+
+
 class Cards extends React.Component{
     constructor(props){
         // call default constructor
