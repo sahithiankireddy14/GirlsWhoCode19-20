@@ -10,16 +10,16 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class Semester1Controller {
 
 	
-	@GetMapping("/")
+	@GetMapping({"/", "/maps"})
 	public String home() {
 		return "index";
 	}
 
 
-	@GetMapping("/home")
-	public String home2() {
-		return "index2";
-	}
+	// @GetMapping("/home")
+	// public String home2() {
+	// 	return "index2";
+	// }
 
 	
 

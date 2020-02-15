@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import { Switch } from 'react-router';
 import Jumbo from './jumbotron.js';
 import Cards from './cards.js';
+import Maps from './maps.js';
 
 
 class App extends React.Component{
@@ -20,6 +21,7 @@ class App extends React.Component{
 				
 				<Switch>
 					<Route exact path='/'component={Jumbo}/>
+					<Route path="/maps" component={Maps}/>
 						
 			 	</Switch> 
 			</Router>
